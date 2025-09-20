@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HealthySG Agent</title>
+  <!-- Load the Google Cloud widget bundle -->
+  <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+</head>
+<body>
+  <h2>HealthySG Agent</h2>
+  <p>Ask me about the HealthySG programme:</p>
+
+  <!-- Element that opens the widget on click -->
+  <input placeholder="Search here" id="searchWidgetTrigger" style="width:300px; padding:8px;" />
+
+  <!-- The widget itself -->
+  <gen-search-widget
+    configId="42781c97-2b1c-4644-8483-1c2f1de880c8"
+    triggerId="searchWidgetTrigger">
+  </gen-search-widget>
+</body>
+</html>
